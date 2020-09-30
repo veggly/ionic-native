@@ -5,8 +5,8 @@ import { Plugin, Cordova, IonicNativePlugin } from '@ionic-native/core';
  * @see https://developer.apple.com/documentation/authenticationservices/asauthorizationappleidrequest
  */
 export class ASAuthorizationAppleIDRequest {
-  static readonly ASAuthorizationScopeFullName = 0;
-  static readonly ASAuthorizationScopeEmail = 1;
+//  static readonly ASAuthorizationScopeFullName = 0;
+//  static readonly ASAuthorizationScopeEmail = 1;
 
   requestedScopes?: number[];
 }
